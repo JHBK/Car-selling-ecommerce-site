@@ -1,0 +1,150 @@
+
+/* -------------  CSS Loader  ----------- */
+
+.overlay{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: 10;
+	opacity: 0.7;
+}
+.loader{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border:10px solid #333;
+	position: relative;
+	margin: 0 auto;
+	top:30%;
+	animation:loader 2s linear infinite;
+}
+@keyframes loader{
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
+.loader:after{
+	content: "";
+    width: 35px;
+    height: 35px;
+    background: #333;
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    left: 55px;
+}
+.loader:before{
+	content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #333;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: -10px;
+    left: 39px;
+
+}
+
+/* --------- CSS Loader End Here ------------*/
+
+
+.slider_area img{margin-top: -39px;
+    width: 100%;height: 527px;}
+	.kcorner_area{min-height:406px;background:#FFFFFF}
+.ktext{margin-top: 110px;}
+.ktext h1{color: #286090;
+text-align: center;}
+.ktext p{display: block;
+float: right;
+font-size: 23px;
+margin-right: 247px;
+text-align: center;
+width: 58%;}
+.slider_area{ 
+
+margin-top: -39px;
+}
+.carousel-inner{ 
+height:700px;
+}
+.footer_area{ 
+background: #1d1d1f none repeat scroll 0 0;
+padding-top: 9px;
+}
+
+.copy {
+  color: #ffffff;
+  text-align: center;
+}
+.us_area img{height: 527px;
+margin-left: -62px;
+margin-top: -42px;
+width: 110%;}
+.ht h3{ 
+background: lightgray none repeat scroll 0 0;
+border-bottom: 6px solid red;
+}
+.ab_text p{ 
+font-size: 18px;
+
+}
+
+.ab_corner{ 
+
+background-color: #f0f0f0;
+height: 756px;
+}
+.ch  { 
+
+text-align: center;
+}
+.all_add{}
+.c_add1{}
+.c_add2{margin-top: 29px;}
+.c_add3{margin-top: 37px;}
+
+.mi_area img{height: 527px;
+margin-left: -77px;
+margin-top: -42px;
+width: 112%;}
+
+.tin_add1 h4{ color: #ff0000;
+font-size: 28px;
+margin-top: 38px;
+
+}
+.tin_add1{ border-bottom: 5px solid;
+
+}
+.tin_add1 p{ 
+
+color: #1ed760;
+font-size: 21px;
+margin-top: 13px;
+}
+.tin_text p{ font-size: 18px;
+}
+.emn{ border-bottom: 5px solid;
+color: #337fc1;
+font-size: 18px;
+margin-top: 25px;
+
+}
+.esr{ 
+
+} 
+.esr p{ font-size: 23px;
+margin-top: 36px;
+
+} 
+.esr h3{ 
+color: #fa0000;
+margin-left: 32px;
+} 
